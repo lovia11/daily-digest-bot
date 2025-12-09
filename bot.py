@@ -2,8 +2,8 @@ import os
 import requests
 from datetime import datetime, timedelta, timezone
 
-DEEPSEEK_API_KEY = os.getenv("sk-3ec915eda0df48b8a2306c6dabfd825b")
-FEISHU_WEBHOOK_URL = os.getenv("https://open.feishu.cn/open-apis/bot/v2/hook/74cc8e2f-1cd4-44b8-8f71-ba83205faeaa")
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+FEISHU_WEBHOOK_URL = os.getenv("FEISHU_WEBHOOK_URL")
 DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions"
 DEEPSEEK_MODEL = "deepseek-chat"  # 可按你实际使用的模型名调整
 
